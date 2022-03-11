@@ -1,0 +1,52 @@
+$body-bg: #252423;
+$body-color: #fff;
+$primary: #2e2d2c;
+$secondary: #adb5bd;
+$info: #5ac9e5;
+$light: #fff;
+$danger: #dc3545;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  info: $info,
+  light: $light,
+  danger: $danger
+);
+
+$border-radius: 12px;
+$border-radius-sm: 12px;
+$border-radius-lg: 12px;
+
+$btn-border-radius:           $border-radius;
+$btn-border-radius-sm:        $border-radius-sm;
+$btn-border-radius-lg:        $border-radius-lg;
+
+$btn-disabled-opacity:        .30;
+
+$input-btn-focus-width:         0px;
+
+$btn-hover-bg-shade-amount:       0%;
+$btn-hover-bg-tint-amount:        0%;
+$btn-hover-border-shade-amount:   0%;
+$btn-hover-border-tint-amount:    0%;
+
+$input-focus-bg: #343434;
+$input-disabled-bg: #2e2d2c;
+$input-disabled-border-color: #2e2d2c;
+
+
+$border-color:                hsla(0,0%,100%,.2);
+$border-radius:               12px;
+
+$accordion-border-color:                  $border-color;
+$accordion-color:                         $body-color;
+$accordion-bg:                            $body-bg;
+$accordion-button-color:                  $accordion-color;
+$accordion-button-bg:                     $accordion-bg;
+$accordion-button-active-bg:              $body-bg;
+$accordion-button-active-color:           $accordion-color;
+$accordion-button-focus-border-color:     null;
+$accordion-button-focus-box-shadow:       null;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
